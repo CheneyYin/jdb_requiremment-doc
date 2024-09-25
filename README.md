@@ -132,7 +132,7 @@ pnpm format:fix
 
 ## License
 
-TBD
+This repository is available under the [GUN V3](https://github.com/JiaDBUniverse/jdb_requiremment-doc/blob/master/LICENSE).
 
 ## 常见问题解答
 
