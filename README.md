@@ -3,9 +3,9 @@
 <img src="./assets/logo_tmp.png" alt="Jiduobao Logo TBD" height="200px" align="right" />
 
 [![Check Format](https://github.com/JiaDBUniverse/jdb_requiremment-doc/actions/workflows/documents.yaml/badge.svg)](https://github.com/JiaDBUniverse/jdb_requiremment-doc/actions/workflows/documents.yaml)
-[![JiaDBUniverse TBD](https://img.shields.io/badge/wechat-JiaDBUniverse-blue)](README.md)
-[![EN doc TBD](https://img.shields.io/badge/document-Chinese-yellow.svg)](README.md)
+[![JiaDBUniverse TBD](https://img.shields.io/badge/wechat_TBD-JiaDBUniverse-blue)](README.md)
 [![CN doc](https://img.shields.io/badge/document-Chinese-yellow.svg)](README.md)
+[![CN doc TBD](https://img.shields.io/badge/document-English_TBD-yellow.svg)](README.md)
 
 ## 内容目录
 
