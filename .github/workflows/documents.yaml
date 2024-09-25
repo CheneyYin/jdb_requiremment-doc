@@ -1,0 +1,34 @@
+name: Documents
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+concurrency:
+  group: BT-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: "Check format"
+    strategy:
+      matrix:
+        node_version: ["20"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9.11.0
+      - name: Setup Node.js ${{matrix.node_version}}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{matrix.node_version}}
+          cache: "pnpm"
+      - name: Install dependecy
+        run: pnpm install
+      - name: Format Check
+        run: pnpm format:check
