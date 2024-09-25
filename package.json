@@ -1,0 +1,19 @@
+{
+  "name": "jdb_requirement-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier  --ignore-path node-modules/ --check .",
+    "format:fix": "prettier --write ."
+  },
+  "keywords": [
+    "Requirement document",
+    "JiaDBUniverse"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
